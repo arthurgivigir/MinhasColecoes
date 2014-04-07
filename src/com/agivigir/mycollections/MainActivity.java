@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 	private Button scanBtn;
 	private TextView formatTxt, contentTxt;
 
-    @Override
+    @Override   
     protected void onCreate(Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
